@@ -1,0 +1,15 @@
+<section id="con" class="con mt-15 ">
+  <div class="movie" *ngFor="let movie of allmovies">
+    <a [routerLink]="['/moviedetails', movie.id]">
+      <img src="{{imagePath+movie.poster_path}}" alt="">
+    </a>
+    <div class="info">
+      <h4>{{movie.original_title}}</h4>
+      <a href=""> More Details <i class="fa-solid fa-caret-down"></i></a>
+    </div>
+  </div>
+</section>
+<div class="row">
+  <mat-paginator [length]="totalMovies" [pageSize]="pageSize" aria-label="Select page" (page)="changePage($event)">
+  </mat-paginator>
+</div>

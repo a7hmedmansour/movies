@@ -1,0 +1,75 @@
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+  }
+  .movie {
+    width: 350px;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.452);
+   
+  }
+  .movie img {
+    width: 100%;
+    padding: 15px;
+  }
+  .movie .info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .movie .info a {
+    padding: 2px 5px;
+    margin: 7px;
+    width: 75%;
+    text-align: center;
+    background: #cd122d;
+    /* background-color: #fdc52c; */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 19px;
+  }
+  h4{
+    font-weight: 400;
+    /* color: black; */
+    /* background: linear-gradient(90deg,#cd122d 0,#154284); */
+  }  
+  
+
+  .movie .info a:hover{
+
+    background-color: transparent;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(0,0,0,.5);
+    transform: translatex(0.1rem);
+    background: linear-gradient(90deg,#cd122d 0,#154284)
+
+  }
+  .filte{
+    display: flex;
+    justify-content: center;
+    margin:  15px 15px 0px ;
+    height: 60px;
+    text-align: center;
+    background-color: #154284;
+  }
+
+  .listbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+
+  }
+  mat-chip{
+    background-color: #cd122d;
+     border: #154284 solid 2px;
+    background-color: #154284;
+  }
+
+ 
+ 

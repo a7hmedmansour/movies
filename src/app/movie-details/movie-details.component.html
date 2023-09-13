@@ -1,0 +1,61 @@
+<section class="movie-details">
+
+  <div class="mv-card" id="newSection">
+    <div class="move-info container">
+      <div class="row hh">
+        <div class="col-lg-3 imges" id="iimge">
+          <img src="{{imagePath+selectedmovie.poster_path}}" class="">
+        </div>
+        <div class="col-lg-7 listss" style="padding: 10px;">
+          <h1 id="titleFilm">{{selectedmovie.original_title}} </h1>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>language :{{selectedmovie.original_language}}</strong><span
+                id="language"></span></li>
+            <li class="list-group-item"><strong>Vote count : {{selectedmovie.vote_count}}</strong><span
+                id="vote"></span></li>
+            <li class="list-group-item"><strong>Rating : {{selectedmovie.vote_average}}<i
+                  class="fa-regular fa-star"></i></strong><span id="rating"></span></li>
+            <li class="list-group-item"><strong>The Quality :</strong><span>1080p
+                .BluRay</span></li>
+            <li class="list-group-item"><strong>Release date : {{selectedmovie.release_date}}</strong><span
+                id="release"></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="carrd" id="overview">
+    <div class="container">
+      <div class="card text-white mb-3" style="max-width: 100%;">
+        <div class="card-header">
+          <h3 class="card-title"> Overview</h3>
+        </div>
+        <div class="card-body">
+          <h4 class="card-text" id="textt">{{selectedmovie.overview}}</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mx-25">
+    <div class="row mx-25">
+      <section class="trailer text-center">
+        <div>
+          <a href="{{link}}" class="text-white font-weight-bold text-decoration-none" target="_blank">
+            <h1>Watch Trailer</h1>
+          </a>
+        </div>
+        <iframe width="80%" height="500px" src="{{link}}">
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          ></iframe>
+      </section>
+    </div>
+
+  </div>
+
+</section>

@@ -1,0 +1,109 @@
+.movie-details{
+  background: url(https://www.fcbarcelona.com/fcbarcelona/photo/2023/03/15/18b11c90-e3fa-4c61-9654-c9d2e88c9526/bg-culers3.svg);
+  background-position: center;
+  background-size: cover;
+
+}
+li{
+  height: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+}
+.move-info {
+    display: flex;
+    color: white;
+    margin-top: 35px;
+    /* background-color: rgba(0, 0, 0, 0.452); */
+  }
+  .move-info img {
+    width: 400px;
+    height: 500px;
+    margin: 3px;
+    padding: 8px;
+    max-width: 400px;
+   
+  }
+  .move-info span{
+    font-size: 18px;
+  }
+  table {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .hh {
+    display: flex;
+    justify-content: space-between;
+    color: #181d25;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    border-right: #8c1a17 10px solid;
+    background-color: rgba(0, 0, 0, 0.452);
+
+
+    
+  }
+  
+
+
+  .card {
+    margin: 30px 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #181d25;
+    border-left: #154284 10px solid;
+
+  }
+  .imges {
+    text-align: center;
+    color: #0099ff;
+  }
+  .mv-card {
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+    font-size: 18px;
+  }
+  
+
+
+.listss h1{
+    font-size: 45px;
+    color: #fdc52c;
+    margin-bottom: 20px;
+}
+.listss{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 54%;
+
+}
+.listss strong {
+  font-size: 25px;
+}
+
+
+
+
+
+  .llink {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .llink a {
+    text-decoration: none;
+    padding: 7px 5px;
+    margin: 10px;
+    border-radius: 2px;
+    color: white;
+    width: 180px;
+    text-align: center;
+    background-image: linear-gradient(90deg,#154284,#181733);  };
+  .aa {
+    background: linear-gradient(90deg,#8c1a17,#cd122d);  }
+  /* ======End-section-llink===== */
